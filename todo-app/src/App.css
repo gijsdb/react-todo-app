@@ -1,0 +1,42 @@
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  min-height: 100%;
+  background: #FE7446;
+}
+
+.notesContainer {
+  display: grid;
+}
+
+.noteBorder {
+  border: 3px solid white;
+  margin: 1em 0;
+}
+
+.notesHeader {
+  color: #Ffff;
+  text-align: center;
+}
+
+.notesBody {
+  color: #Ffff;
+  width: 70vw;
+  padding: 1.5em 0;
+  margin-left: 15vw;
+  text-align: center;
+}
+
+.notesFooter {
+  color: #Ffff;
+  height: 5em;
+  width: 100vw;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  background-color: #2B3D4D;
+  
+}
